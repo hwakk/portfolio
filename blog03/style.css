@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap");
+
+* {
+  font-family: "Noto Sans KR", sans-serif;
+  list-style: none;
+  text-decoration: none;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.intro_bg {
+  background-image: url("/portfolio/blog03/image/intro.png");
+  width: 100%;
+  height: 718px;
+}
+
+.header {
+  display: flex;
+  width: 1280px;
+  height: 86px;
+  margin: auto;
+}
+
+.header .search_area {
+  width: 300px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.5) no-repeat padding-box;
+  border-radius: 5px;
+  margin-top: 24px;
+}
+
+.header .search_area form input {
+  border: none;
+  background: rgba(0, 0, 0, 0);
+  width: 250px;
+  height: 40px;
+  color: #fff;
+  padding-left: 15px;
+}
+
+.header .search_area form span {
+  width: 50px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.header .nav {
+  display: flex;
+  justify-content: flex-end;
+  line-height: 86px;
+  width: calc(1280px - 300px);
+}
+
+.nav li {
+  margin-left: 84px;
+}
+
+.nav li a {
+  color: #fff;
+}
+
+.intro_text {
+  width: 100%;
+  text-align: center;
+  margin: 231px auto;
+}
+
+.intro_text h1,
+.intro_text h4 {
+  color: #fff;
+}
+
+.amount {
+  position: relative;
+  top: -66px;
+  display: flex;
+  width: 1280px;
+  margin: auto;
+  background: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.amount li {
+  flex: 1;
+  height: 132px;
+}
+
+.amount li .amount_content {
+  text-align: center;
+  height: 57px;
+  margin-top: 37px;
+  border-right: 2px solid #e1e1e1;
+}
+
+.amount li:last-child .amount_content {
+  border-right: none;
+}
+
+.amount li .amount_content p {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.about {
+  width: 100%;
+  background: #f1f2f3;
+  margin-top: -132px;
+  padding: 100px 0px 50px 0px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.about .about_content {
+  display: flex;
+  /* justify-content: space-between; */
+  margin: auto;
+  margin-top: 49px;
+  width: 1280px;
+  height: 302px;
+}
+
+.about .about_content li {
+  flex: 1;
+  height: 302px;
+  margin-right: 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.about .about_content li:last-child {
+  margin-right: 0px;
+}
+
+.about .about_content li .icon {
+  margin-top: 27px;
+}
+
+.about .about_content li h5 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.about .about_content li p {
+  font-size: 14px;
+  width: 240px;
+  margin: auto;
+  letter-spacing: -1px;
+}
+
+.about .about_content li .more {
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  margin: 25px auto 0px auto;
+  background: #2f7af4;
+  color: #fff;
+  font-size: 12px;
+}
+
+.service {
+  width: 100%;
+  background: #fff;
+  padding: 50px 0px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.service .service_content {
+  width: 1280px;
+  height: 427px;
+  display: flex;
+  margin: auto;
+  margin-top: 49px;
+}
+
+.service .service_content .food_desc {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.service .service_content .food_desc h5 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 24px;
+  margin-bottom: 27px;
+}
+
+.service .service_content .food_desc p {
+  font-size: 18px;
+}
+
+.contact {
+  width: 100%;
+  height: 418px;
+  background: url("/portfolio/blog03/image/contact.png") no-repeat center;
+}
+
+.contact .contact_content {
+  display: flex;
+  text-align: center;
+  padding-top: 138px;
+}
+
+.contact .contact_content li {
+  flex: 1;
+}
+
+.contact .contact_content h1,
+.contact .contact_content h4,
+.contact .contact_content .contact_btn {
+  color: #fff;
+}
+
+.contact .contact_content .contact_btn {
+  width: 220px;
+  height: 40px;
+  line-height: 40px;
+  margin: auto;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid #fff;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.footer {
+  background: #1f1f1f;
+}
+
+.footer .footer_content {
+  display: flex;
+  width: 1280px;
+  margin: auto;
+  padding: 50px 0px;
+}
+
+.footer .footer_content .logo {
+  flex: 1;
+  margin: 45px auto;
+}
+
+.footer .footer_content .info {
+  flex: 3;
+}
+
+.footer .footer_content .logo h1,
+.footer .footer_content .info h4 {
+  color: #fff;
+}
+
+.footer .footer_content .info h4 {
+  font-weight: bold;
+  line-height: 40px;
+}
