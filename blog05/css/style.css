@@ -14,8 +14,12 @@ font-family: 'Noto Sans KR', sans-serif;
 }
 
 h1,
-h2 {
+h2,
+h6,
+p,
+span {
   margin: 0;
+  padding: 0;
 }
 
 header {
@@ -146,27 +150,35 @@ main .main_bg {
 }
 
 footer {
-  background: #000;
-}
-
-footer .footer_wrapper {
-  position: relative;
-  width: 90%;
-  margin: 0 auto;
+  background: #121212;
 }
 
 footer .footer_container {
-  position: absolute;
   display: flex;
-  width: 100%;
   justify-content: center;
+  margin: 0 auto;
+  width: 1200px;
   color: #fff;
+  border-bottom: 1px solid #272727;
 }
 
-footer .footer_container li {
-  flex: 1;
+footer .footer_container .footer_about {
+  width: 47%;
 }
 
-footer .footer_container li:first-of-type {
-  flex: 2;
+footer .footer_container .footer_follow {
+  width: 25%;
+}
+
+footer .footer_container .footer_contact {
+  width: 28%;
+}
+
+footer .footer_container .footer_about span {
+  display: block;
+}
+
+footer > p {
+  text-align: center;
+  color: #fff;
 }
