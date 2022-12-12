@@ -11,8 +11,31 @@
     <header>
       <h1 class="nav_logo">PL COLOR</h1>
       <div class="nav_toggle">
-        <span></span>
-        <span></span>
+        <div class="nav_circle">
+          <svg viewBox="-25 -25 250 250" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <path
+                id="circle_path"
+                fill="none"
+                stroke="black"
+                d="M100,1c54.59,0,99,44.41,99,99s-44.41,99-99,99S1,154.59,1,100S45.41,1,100,1 M100,0C44.77,0,0,44.77,0,100
+        s44.77,100,100,100s100-44.77,100-100S155.23,0,100,0L100,0z"
+              />
+            </defs>
+            <text>
+              <textPath
+                id="circle_text"
+                href="#circle_path"
+                lenthAdjust="spacing"
+                textLength="610"
+              >
+                THE LIGHT PL COLOR PLANT THE LIGHT PL COLOR PLANT THE PLANT
+              </textPath>
+            </text>
+          </svg>
+          <span></span>
+          <span></span>
+        </div>
       </div>
       <div class="nav_menu">
         <ul>
@@ -24,7 +47,6 @@
         </ul>
       </div>
     </header>
-
     <main>
       <div class="main_wrapper">
         <div class="main_container">
@@ -42,32 +64,41 @@
           </div>
         </div>
       </div>
-      <div class="main_bg"></div>
+      <div class="main_bg">
+        <video
+          src="./media/C-BG.mp4"
+          autoplay
+          loop
+          muted="./images/bg_mvisual.png"
+        ></video>
+      </div>
     </main>
 
     <footer>
       <ul class="footer_container">
         <li class="footer_about">
           <h6>About us</h6>
-          <p>피엘컬러</p>
           <p>
-            <span>서울특별시 마포구 동교동 185-7</span>
-            <span>더 라움빌딩 B동 202호</span>
+            <strong>피엘컬러</strong>
+            서울특별시 마포구 동교동 185-7<br />
+            더 라움빌딩 B동 202호
           </p>
         </li>
         <li class="footer_follow">
           <h6>Follow us</h6>
-          <a href="#">
-            <p>instagram<span>↗</span></p>
-          </a>
-          <a href="#">
-            <p>youtube<span>↗</span></p>
-          </a>
+          <a href="#"> instagram<span>↗</span> </a>
+          <a href="#"> youtube<span>↗</span> </a>
         </li>
         <li class="footer_contact">
           <h6>Contact us</h6>
-          <p>02.6952.6810</p>
-          <p>plcolor@naver.com</p>
+          <p>
+            02.6952.6810
+            <span class="contact_copy"></span>
+          </p>
+          <p>
+            plcolor@naver.com
+            <span class="contact_copy"></span>
+          </p>
         </li>
       </ul>
       <p>COPYRIGHT &copy; PL COLOR ALL RIGHTS RESERVED.</p>
