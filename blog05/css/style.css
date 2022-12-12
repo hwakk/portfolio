@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Noto+Sans+KR:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Noto+Sans+KR:wght@300;400;500&display=swap");
 
 /* 
 font-family: 'Montserrat', sans-serif;
@@ -41,6 +41,7 @@ header .nav_logo {
   font-size: 30px;
   line-height: 30px;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
 header .nav_toggle {
@@ -82,6 +83,7 @@ header .nav_toggle span {
   right: 0;
   height: 3px;
   background-color: #fff;
+  transition: all 0.3s ease-in-out;
 }
 
 header .nav_toggle span:first-of-type {
@@ -95,6 +97,20 @@ header .nav_toggle span:last-of-type {
 
 header .nav_menu {
   display: none;
+}
+
+/* 스크롤시 header 색상 변경 */
+header .nav_logo.nav_dark {
+  color: #121212;
+}
+
+header .nav_circle.nav_dark svg {
+  fill: #121212;
+  font-weight: 500;
+}
+
+header .nav_toggle span.nav_dark {
+  background-color: #121212;
 }
 
 main {
@@ -284,14 +300,15 @@ footer .footer_container .footer_contact p > span {
   display: inline-block;
   width: 18px;
   height: 17px;
-  background: url("../images/ico_clipboard.svg") no-repeat center center;
+  background: url("/portfolio/images/ico_clipboard.svg") no-repeat center center;
   /* background-size: contain; */
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
 
 footer .footer_container .footer_contact p > span:hover {
-  background: url("../images/ico_clipboard_on.svg") no-repeat center center;
+  background: url("/portfolio/images/ico_clipboard_on.svg") no-repeat center
+    center;
 }
 
 footer > p {
