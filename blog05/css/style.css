@@ -300,15 +300,16 @@ footer .footer_container .footer_contact p > span {
   display: inline-block;
   width: 18px;
   height: 17px;
-  background: url("/portfolio/images/ico_clipboard.svg") no-repeat center center;
+  background: url("/portfolio/blog05/images/ico_clipboard.svg") no-repeat center
+    center;
   /* background-size: contain; */
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
 
 footer .footer_container .footer_contact p > span:hover {
-  background: url("/portfolio/images/ico_clipboard_on.svg") no-repeat center
-    center;
+  background: url("/portfolio/blog05/images/ico_clipboard_on.svg") no-repeat
+    center center;
 }
 
 footer > p {
